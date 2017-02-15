@@ -1,0 +1,136 @@
+.about, .team {
+  padding: 10px;
+  text-align: center; }
+
+.team {
+  padding: 10px; }
+  .team img {
+    height: 201px; }
+
+.team {
+  width: 100%; }
+  .team .teamc {
+    padding: 10px; }
+
+.socicons li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px; }
+
+.teami a, .teami p {
+  font-size: 160%; }
+.teami a {
+  padding: 5px;
+  background: #5372FC;
+  color: white;
+  border-radius: 20px; }
+
+.customers img {
+  padding-top: 10px; }
+
+/*about*/
+.aboutc img {
+  height: 255px;
+  float: left;
+  padding: 10px;
+  left: 10%;
+  position: relative;
+  top: 60px; }
+.aboutc p {
+  width: 40%;
+  text-align: left; }
+.aboutc p, .aboutc h1 {
+  display: inline-block; }
+
+.about {
+  width: 100%; }
+
+@media screen and (min-width: 768px) {
+  .teami {
+    display: inline-block;
+    width: 30%; }
+
+  .customers img {
+    width: 30%; } }
+/* services section */
+.contd {
+  padding: 20px; }
+
+.form {
+  padding: 20px; }
+  .form input, .form textarea {
+    display: block;
+    width: 90%; }
+  .form button {
+    margin-top: 10px; }
+
+/* services */
+body h1 {
+  font-size: 2.0rem; }
+
+.servp {
+  padding: 20px;
+  /*
+  width:20%;
+  display:inline-block; */ }
+
+.panelsc .panel h2 {
+  font-size: 1.5rem; }
+.panelsc h1, .panelsc .panel div {
+  text-align: center; }
+.panelsc .panel div {
+  border: 1px solid grey;
+  padding: 10px; }
+
+.nav-tabs {
+  padding: 20px; }
+  .nav-tabs li {
+    position: relative; }
+
+.servd {
+  display: none; }
+
+.actd {
+  display: block;
+  animation-name: fade;
+  -webkit-animation-name: fade;
+  animation-name: fade;
+  animation-duration: 2s; }
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0; }
+  25% {
+    opacity: 0.5; }
+  50% {
+    opacity: 0.6; }
+  75% {
+    opacity: 0.7; }
+  100% {
+    opacity: 1; } }
+/* Standard syntax */
+@keyframes fade {
+  0% {
+    opacity: 0; }
+  25% {
+    opacity: 0.5; }
+  50% {
+    opacity: 0.6; }
+  75% {
+    opacity: 0.7; }
+  100% {
+    opacity: 1; } }
+.ul .fa {
+  padding: 15px; }
+.ul .nav-tabs {
+  padding: 3px; }
+.ul .nav {
+  bottom: 0; }
+
+.servnav {
+  left: 0; }
+
+.servt {
+  padding-top: 20px; }
+
+/*# sourceMappingURL=mod.css.map */
